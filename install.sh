@@ -1,7 +1,11 @@
 #!/bin/bash
+#Download: wget -O - https://raw.githubusercontent.com/cactixxx/zeedesigns/main/install.sh |tee > install.sh
+
 
 echo " "
 echo "Installation script for ZeeDesigns"
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+echo " "
 apt update
 apt upgrade
 echo " "
