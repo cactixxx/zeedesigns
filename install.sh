@@ -8,6 +8,9 @@ echo " "
 echo "If kernel updates were installed please press CTRL-C and reboot"
 read -n 1 -s
 
+echo "Change root password"
+passwd
+
 sed -i 's/ubuntu/zeedesigns/' /etc/hosts
 sudo apt install openjdk-11-jdk
 wget https://github.com/thingsboard/thingsboard/releases/download/v3.2.2/thingsboard-3.2.2.deb
