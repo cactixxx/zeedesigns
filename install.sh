@@ -7,7 +7,7 @@ echo "Installation script for ZeeDesigns"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo " "
 apt update
-apt upgrade
+apt -y upgrade
 echo " "
 echo "If kernel updates were installed please press CTRL-C and reboot"
 read -n 1 -s
