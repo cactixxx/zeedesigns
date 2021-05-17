@@ -8,6 +8,7 @@ echo " "
 echo "If kernel updates were installed please press CTRL-C and reboot"
 read -n 1 -s
 
+echo " "
 echo "Change root password"
 passwd
 
